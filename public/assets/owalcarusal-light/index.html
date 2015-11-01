@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Owl carousel and lightbox (prettyphoto) together - jsFiddle demo</title>
+  
+  
+  <script type='text/javascript' src='jquery-2.1.0.js'></script>
+  
+  
+  
+  
+    
+      <link rel="stylesheet" type="text/css" href="owl.theme.css">
+    
+  
+    
+      <link rel="stylesheet" type="text/css" href="owl.carousel.css">
+    
+  
+    
+      <script type='text/javascript' src="grabbing.png"></script>
+    
+  
+    
+      <script type='text/javascript' src="AjaxLoader.gif"></script>
+    
+  
+    
+      <script type='text/javascript' src="owl.carousel.min.js"></script>
+    
+  
+    
+      <script type='text/javascript' src="jquery.prettyPhoto.js"></script>
+    
+  
+    
+      <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+  
+
+<script type='text/javascript'>//<![CDATA[
+
+ $(document).ready(function () {
+     $("a[rel^='prettyPhoto']").prettyPhoto();
+
+     $(".owl-slider").owlCarousel({
+
+         autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+         items: 4,
+         itemsDesktop: [1199, 3],
+         itemsDesktopSmall: [979, 3]
+
+     });
+ });
+//]]> 
+
+</script>
+
+</head>
+<body>
+  <h1>Owl carousel and lightbox (prettyphoto) together</h1>
+
+<p>See external resources for css and js libs ;)</p>
+
+<h2>Miam responsive pictures of food</h2>
+
+<p>Click the pictures</p>
+<div id="pictures" class="owl-slider">
+<a class="item" href="http://lorempixel.com/800/400/food/1/" rel="prettyPhoto" title="This is the description">
+    <img src="http://lorempixel.com/300/150/food/1/" width="300" height="150" alt="title" />
+</a>
+
+<a class="item" href="http://lorempixel.com/800/400/food/2/" rel="prettyPhoto" title="This is the description">
+    <img src="http://lorempixel.com/300/150/food/2/" width="300" height="150" alt="title" />
+</a>
+
+<a class="item" href="http://lorempixel.com/800/400/food/3/" rel="prettyPhoto" title="This is the description">
+    <img src="http://lorempixel.com/300/150/food/3/" width="300" height="150" alt="title" />
+</a>
+
+<a class="item" href="http://lorempixel.com/800/400/food/4/" rel="prettyPhoto" title="This is the description">
+    <img src="http://lorempixel.com/300/150/food/4/" width="300" height="150" alt="title" />
+</a>
+
+<a class="item" href="http://lorempixel.com/800/400/food/5/" rel="prettyPhoto" title="This is the description">
+    <img src="http://lorempixel.com/300/150/food/5/" width="300" height="150" alt="title" />
+</a>
+
+</div>
+
+<h2>Video Slider with pictures and linked videos</h2>
+
+<p>videos inside</p>
+<div id="videos" class="owl-slider"> <a class="item" href="http://www.youtube.com/watch?v=T-D1KVIuvjA" rel="prettyPhoto" title="Here is your video">
+        <img src="http://img.youtube.com/vi/T-D1KVIuvjA/0.jpg" alt="Greetings from Chuck (The epic christmas split)" />
+    </a>
+ <a class="item" href="http://www.youtube.com/watch?v=mghhLqu31cQ" rel="prettyPhoto" title="Here is your video">
+        <img src="http://img.youtube.com/vi/mghhLqu31cQ/0.jpg" alt="The GAG Quartet - le Internet Medley" />
+    </a>
+ <a class="item" href="http://www.youtube.com/watch?v=JaAWdljhD5o" rel="prettyPhoto" title="Here is your video">
+        <img src="http://img.youtube.com/vi/JaAWdljhD5o/0.jpg" alt="SAIL - AWOLNATION" />
+    </a>
+</div>
+  
+</body>
+
+</html>
+

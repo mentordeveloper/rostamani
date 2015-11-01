@@ -1,0 +1,5 @@
+username,email,password,group,is_active,roles
+nib1_2w,nib_2w@gmail.com,admin123,grade2,1,Student
+abc1_2w,abc_2w@gmail.com,admin123,grade2,1,Student
+nbc1_2w,nbc_2w@gmail.com,admin123,grade2,1,Student
+pakweb1_1w,pakweb_1w@gmail.com,admin123,grade2,1,Student

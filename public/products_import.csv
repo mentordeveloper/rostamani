@@ -1,0 +1,4 @@
+name,parent_category,child_category,description,lumen,beam_angle,move_angle,hole_size,body_size,material,color,image
+pro1,Indoor,Room,Student,sda,s,da,ad,asd,as,ad,11.jpg
+pro2,outdoor,Wall,Student,sda,asd,asddas,asd,adsaf,adsfa,ad,12.jpg
+pro3,Indoor,Room,Student,sda,sad,asd,asda,asda,asdfa,asd,13.jpg

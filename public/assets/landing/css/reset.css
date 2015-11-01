@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+	max-height: 100000px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box
+}
+address, applet, blockquote, dl, embed, form, frameset, h1, h2, h3, h4, h5, h6, iframe, object, ol, p, table, ul {
+	margin: 0 0 14px
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, frameset, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+	border: 0;
+	background: 0 0
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+figure {
+	margin: 0;
+	padding: 0
+}
+body {
+	background: #fff;
+	height: 100%;
+	margin: 0;
+	min-width: 320px;
+	color: #fff;
+	font: 36px/1.25 'HelveticaNeuethin', Helvetica, Arial, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+#wrapper, .logo {
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease
+}
+a {
+	text-decoration: none;
+	color: #20687d
+}
+a:hover {
+	text-decoration: underline
+}
+a:focus {
+	outline: none;
+}
+input, select, textarea {
+	font: 14px 'HelveticaNeuethin', Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+	color: #979797;
+	overflow: auto
+}
+label {
+	vertical-align: middle
+}
+button, input {
+	width: auto;
+	overflow: visible
+}
+b, h1, h2, h3, h4, h5, h6, strong, th {
+	font-weight: 700
+}
+h1 {
+	font-size: 200%
+}
+h2 {
+	font-size: 150%
+}
+h3 {
+	font-size: 120%
+}
+h4 {
+	font-size: 110%
+}
+h5 {
+	font-size: 100%
+}
+h6 {
+	font-size: 90%
+}
+address, cite, dfn, em, i, var {
+	font-style: italic
+}
+ins, u {
+	text-decoration: underline
+}
+del, s, strike {
+	text-decoration: line-through
+}
+blockquote {
+	font-size: 30px;
+	overflow: hidden;
+	padding: 60px 134px;
+	border:none !important;
+	position: relative;
+}
+blockquote, blockquote:after, blockquote:before, q, q:after, q:before {
+	quotes: none
+}
+blockquote:after, blockquote:before, q:after, q:before {
+	content: ''
+}
+blockquote:after, q:after {
+	background: url(../images/bg-quote.png) no-repeat -7px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 124px;
+	height: 103px;
+}
+q:after {
+	background-position: 0 -162px;
+	top: auto;
+	left: auto;
+	right: 20px;
+	bottom: 0;
+}
+blockquote q {
+	display: block;
+}
+caption, table, tbody, td, tfoot, th, thead, tr {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+ol, ul {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+td, th {
+	border: 1px solid #ccc;
+	padding: 3px 7px;
+	text-align: left;
+	vertical-align: top
+}
+th {
+	border-color: #999;
+	text-align: center;
+	vertical-align: middle
+}
+.aligncenter {
+	text-align: center
+}
+img.aligncenter {
+	display: block;
+	margin: 0 auto
+}
+.alignleft {
+	float: left
+}
+.alignright {
+	float: right
+}
+img {
+	border-style: none;
+	display: block
+}
+input[type=image] {
+	padding: 0;
+	border: none
+}
+input[type=file], input[type=password] {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0!important;
+	-ms-border-radius: 0!important;
+	border-radius: 0!important
+}
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration, input[type=search]::-webkit-search-results-button, input[type=search]::-webkit-search-results-decoration {
+-webkit-appearance:none
+}
+input[type=text], input[type=password], input[type=file], input[type=submit], input[type=search], input[type=email], textarea {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box
+}
+input[type=date]:focus, input[type=date]:hover, input[type=datetime]:focus, input[type=datetime]:hover, input[type=email]:focus, input[type=email]:hover, input[type=tel]:focus, input[type=tel]:hover, input[type=submit]:focus, input[type=text]:focus, input[type=text]:hover, input[type=password]:focus, input[type=password]:hover, textarea:focus, textarea:hover {
+	outline: 0;
+	-webkit-box-shadow: 0;
+	box-shadow: 0
+}
+input[type=submit]:hover {
+	cursor: pointer
+}
+::-webkit-input-placeholder {
+color:rgba(198,198,198,.5)
+}
+::-moz-placeholder {
+opacity:1;
+color:rgba(198,198,198,.5)
+}
+:-moz-placeholder {
+color:rgba(198,198,198,.5)
+}
